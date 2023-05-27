@@ -1,4 +1,4 @@
-package com.atguigu.yygh.hosp.config;
+package com.atguigu.yygh.cmn.config;
 
 
 import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
@@ -13,8 +13,8 @@ import org.springframework.context.annotation.Configuration;
  * @Date 2023/5/13 17:40
  */
 @Configuration
-@MapperScan("com.atguigu.yygh.hosp.mapper")
-public class HospConfig {
+@MapperScan("com.atguigu.yygh.cmn.mapper")
+public class CmnConfig {
 
     /**
      * 分页插件
